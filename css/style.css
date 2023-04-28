@@ -12,10 +12,6 @@ h1 {
     font-size: 45px;
 }
 
-h5 {
-    font-size: 80px;
-}
-
 h6 {
     font-size: 35px;
 }
@@ -42,7 +38,7 @@ h6 {
 }
 
 #textePortfolio h5 {
-    font-size: 25px;
+    font-size: 50px;
     margin-bottom: 1%;
 }
 
@@ -58,6 +54,7 @@ h6 {
     margin-left: 112%;
     margin-top: -7%;
     transition: 0.5s;
+    z-index: 100;
 }
 
 .projetdiv img:hover {
