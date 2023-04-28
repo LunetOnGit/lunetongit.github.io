@@ -23,6 +23,7 @@ h1 {
     width: 200px;
     margin-left: 73%;
     margin-top: -25%;
+    transition: 0.5s;
 }
 
 #textePortfolio {
@@ -48,6 +49,13 @@ h1 {
     transform: translate(-50%, 0);
     margin-left: 112%;
     margin-top: -7%;
+    transition: 0.5s;
+}
+
+.projetdiv img:hover {
+    transform: scale(1.5) translate(-50%, 20%);
+    transition: 0.5s;
+
 }
 
 #Info {
