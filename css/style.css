@@ -51,7 +51,7 @@ h6 {
 .projetdiv img {
     position: fixed;
     transform: translate(-50%, 0);
-    margin-left: 112%;
+    margin-left: 115%;
     margin-top: -7%;
     transition: 0.5s;
     z-index: 100;
