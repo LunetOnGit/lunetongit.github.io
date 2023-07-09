@@ -4,6 +4,45 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.nav {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 1% 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(122, 146, 170);
+    background-size: cover;
+    border-color: var(--);
+    box-shadow: 0 0 20px black;
+    z-index: 3;
+}
+
+.nav-item {
+    margin-right: 2%;
+}
+
+.nav-item a{
+    color: black;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.nav-item a:hover{
+    color: white;
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 1%;
+}
+
 h1 {
     position: relative;
     display: flex;
