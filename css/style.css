@@ -4,6 +4,16 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#id_image {
+margin-left : auto;
+margin-right : auto;
+}
+
+#id_video {
+    margin-left : auto;
+    margin-right : auto;
+    }
+
 .nav {
     position: relative;
     left: 0;
@@ -88,6 +98,15 @@ h6 {
 }
 
 .projetdiv img {
+    position: fixed;
+    transform: translate(-50%, 0);
+    margin-left: 115%;
+    margin-top: -7%;
+    transition: 0.5s;
+    z-index: 100;
+}
+
+.projetdiv video {
     position: fixed;
     transform: translate(-50%, 0);
     margin-left: 115%;
